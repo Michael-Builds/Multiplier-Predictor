@@ -13,6 +13,8 @@ export const scrapeMultipliers = async () => {
 
             multipliers.push(multiplier);
         })
+        console.log("Multipliers", multipliers)
+
         return multipliers;
 
     } catch (error) {
